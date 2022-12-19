@@ -1,0 +1,78 @@
+<h1>largest character size</h1>
+<h6>smallest character size</h6>
+<!--line break--> <br>
+<hr> <!-- size is height, width is width, noshade indicates no drop shadow-->
+<p>formats everything within it as a paragraph</p>
+<em>italicizes text in order to emphazsize, confers meaning</em>
+<i>italicizes text (dont use)</i>
+<!--similarly to i vs em, is b vs strong-->
+<b>bolds any text between it</b>
+<strong>confers emphasis on the bold</strong>
+<ul>
+    <li>ul means unordered list</li>
+    <li>li means list item</li>
+    <ul>
+        <li>ul can be nested</li>
+        <li>but it has to follow the structure of ul then li</li>
+    </ul>
+</ul>
+<ol>
+    <li>ol will number the list items in output</li>
+    <li>can alrer list by indicating type=i or start=(insert number)</li>
+    <li>can staclk ols and even ul inside an ol</li>
+</ol>
+<img src="here is where you add image address" alt="this is where you add meta tags for SEO">
+<!--image address can be online, or if a file is added to the html folder on my desktop, i can just refer to the file as they are in the same place-->
+<!--if image is in a folder within the desktop html folder (lets call it images folder) it needs to have a path in the code ex. <img src="images/logo.png>"-->
+<a href="insert link here, then close the opening of the anchor tag">
+    insert the word or phrase you want to anchor, then close the tab, can also be used to link to other html files, this is how multiple pages are made for a website
+</a>
+<table border="1" cellspacing="20">
+    <thead>
+        <tr>
+            <th>
+                here we can add headers using the table header element (th)
+            </th>
+            <th>
+                each header is autmoatically bolded
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+    <tr>
+        <td>
+            table data is td aka one cell of table
+        </td>
+        <td>
+            tr is table row indicates that every td that occurs is in that row
+        </td>
+        <td>
+            can choose to have a border or not, omit it from table element if undesired
+        </td>
+        <td>
+            can add cell spacing into the table element
+        </td>
+    </tr>
+    <tr>
+        <td>
+            each table can have multiple rows
+        </td>
+    </tr>
+</table>
+<body>
+    <form action="mailto:phillipneman@gmail.com" method="post" enctype="text/plain">
+        <!--mailto function allows submissions to be sent to the specified email, post allows submissions to be sent to a mail client-->
+        <!--enctype is how data is enclosed, in this case text plain-->
+        <label>every form needs a label</label>
+        <input type="text" name="name of choice">
+        <!--many different types of inputs, could be text, submit, checkbox, email, password (masks what is being typed) mdn for more results-->
+        <!--name collects data and applies a label-->
+        <textarea name="can be anything" rows="8" cols="80"></textarea>
+        <!-- numbers for rows and cols is pixels to define size of text area-->
+    </form>
+</body>
